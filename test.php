@@ -9,7 +9,6 @@ if(isset($_GET['option'])){
 		$query_stmnt=mysqli_query($con,$query);
 		$row=mysqli_fetch_all($query_stmnt,MYSQLI_ASSOC);
 		$row_num=mysqli_num_rows($query_stmnt);
-		echo $row_num;
 		$filter=1;
 		
 
